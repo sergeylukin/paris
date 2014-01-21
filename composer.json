@@ -33,9 +33,23 @@
         "BSD-3-Clause",
         "BSD-4-Clause"
     ],
+    "repositories": {
+        "sergeylukin": {
+            "type": "package",
+            "package": {
+                "name": "sergeylukin/idiorm",
+                "version": "sergey-dev",
+                "source": {
+                    "url": "https://github.com/sergeylukin/idiorm",
+                    "type": "git",
+                    "reference": "44645ca16"
+                }
+            }
+        }
+    },
     "require": {
         "php": ">=5.2.0",
-        "j4mie/idiorm": "1.4.*"
+        "sergeylukin/idiorm": "sergey-dev"
     },
     "autoload": {
         "classmap": ["paris.php"]
